@@ -38,7 +38,7 @@ if __name__ == "__main__":
     print("Loading images into memory...")
     # Hard-code the directory of data that you'd like to annotate with bounding boxes. Execution completes when you're
     #  completely done iterating through every image in the directory
-    data_path = '/Volumes/TheShip/Data/CoalPlants/PlantImages'
+    data_path = 'INSERT PATH TO IMAGE DATASET'
     path_list = []
     image_list = []
     for image in os.listdir(data_path):
