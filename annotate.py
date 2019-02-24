@@ -65,4 +65,4 @@ if __name__ == "__main__":
         print(bbox)
         # associate a bounding box with each direct path to an image
         bbox_dict[path_list[i]] = bbox
-    pickle.dump(bbox_dict.values(), open("cache/bbox_list", 'wb'))
+    pickle.dump(bbox_dict, open("cache/bbox_dict", 'wb'))
